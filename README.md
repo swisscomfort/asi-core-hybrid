@@ -5,12 +5,12 @@
 > **Hybrid AI reflection system combining local privacy with decentralized storage**  
 > 🔒 **Local. Anonymous. Forever.** 🚀
 
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/asi-core?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/asi-core/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/swisscomfort/asi-core-hybrid?style=for-the-badge&logo=github)](https://github.com/swisscomfort/asi-core-hybrid/stargazers)
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/asi-core/ci.yml?style=for-the-badge)](https://github.com/YOUR_USERNAME/asi-core/actions)
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Try_Now-success?style=for-the-badge)](https://your-username.github.io/asi-core)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/swisscomfort/asi-core-hybrid/ci.yml?style=for-the-badge)](https://github.com/swisscomfort/asi-core-hybrid/actions)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Try_Now-success?style=for-the-badge)](https://swisscomfort.github.io/asi-core-hybrid)
 
-**[🌐 Live PWA Demo](https://your-username.github.io/asi-core)** • **[📖 Documentation](./docs)** • **[🤝 Contributing](./CONTRIBUTING.md)** • **[💬 Discussions](https://github.com/YOUR_USERNAME/asi-core/discussions)**
+**[🌐 Live PWA Demo](https://swisscomfort.github.io/asi-core-hybrid)** • **[📖 Documentation](./docs)** • **[🤝 Contributing](./CONTRIBUTING.md)** • **[💬 Discussions](https://github.com/swisscomfort/asi-core-hybrid/discussions)**
 
 </div>
 
@@ -19,7 +19,7 @@
 ## ⚡ Quick Start (60 seconds)
 
 ### 🌐 Instant Demo (0 seconds)
-**Try the live PWA instantly** → **[asi-core.demo](https://your-username.github.io/asi-core)**
+**Try the live PWA instantly** → **[asi-core-hybrid.live](https://swisscomfort.github.io/asi-core-hybrid)**
 - ✅ **No installation required** - runs in your browser
 - 📱 **Install as app** - Add to home screen on mobile/desktop  
 - 🔄 **Works offline** - Full functionality without internet
@@ -27,8 +27,8 @@
 ### 🛠️ Local Development (2 minutes)
 ```bash
 # Clone and start
-git clone https://github.com/YOUR_USERNAME/asi-core.git
-cd asi-core
+git clone https://github.com/swisscomfort/asi-core-hybrid.git
+cd asi-core-hybrid
 ./quick-demo.sh  # Interactive 2-minute demo
 
 # Or manual setup
