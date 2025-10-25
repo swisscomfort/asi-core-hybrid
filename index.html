@@ -1,16 +1,160 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/asi-core/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="manifest" href="/asi-core/manifest.json" />
-    <title>ASI Core</title>
-    <script type="module" crossorigin src="/asi-core/assets/index-DWAVIZhF.js"></script>
-    <link rel="stylesheet" crossorigin href="/asi-core/assets/index-T_zM74c7.css">
-  <link rel="manifest" href="/asi-core/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/asi-core/registerSW.js"></script></head>
-  <body>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🧠 ASI-Core Hybrid - Live PWA Demo</title>
+  <meta name="description"
+    content="Advanced Self-Intelligence System combining local privacy with decentralized storage">
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="icon" type="image/svg+xml" href="icon-192.svg">
+  <link rel="apple-touch-icon" href="icon-192.png">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 5rem;
+      margin: 2rem 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 1rem 0;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+      opacity: 0.9;
+      margin: 2rem 0;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .feature {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .feature h3 {
+      margin: 1rem 0;
+      font-size: 1.5rem;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 3rem 0;
+    }
+
+    .btn {
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.3s ease;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .status {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(34, 197, 94, 0.9);
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="status">🟢 PWA Ready</div>
+
+  <div class="container">
+    <div class="logo">🧠</div>
+    <h1>ASI-Core Hybrid</h1>
+    <p class="subtitle">Advanced Self-Intelligence System combining local privacy with decentralized storage</p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>🔒 Privacy-First</h3>
+        <p>Local processing with K-anonymity and Zero-Knowledge proofs</p>
+      </div>
+      <div class="feature">
+        <h3>🧠 AI-Powered</h3>
+        <p>Intelligent state detection and semantic search</p>
+      </div>
+      <div class="feature">
+        <h3>⛓️ Decentralized</h3>
+        <p>Multi-tier storage: SQLite → IPFS → Arweave</p>
+      </div>
+      <div class="feature">
+        <h3>📱 Progressive Web App</h3>
+        <p>Install like native app, works offline</p>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <a href="https://github.com/swisscomfort/asi-core-hybrid" class="btn btn-primary">📖 View GitHub</a>
+      <a href="https://github.com/swisscomfort/asi-core-hybrid/releases" class="btn btn-secondary">💾 Download</a>
+      <a href="https://github.com/swisscomfort/asi-core-hybrid/discussions" class="btn btn-secondary">💬 Community</a>
+    </div>
+  </div>
+
+  <script>
+    console.log('🧠 ASI-Core Hybrid v2.0.0 - PWA Ready!');
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(console.error);
+    }
+  </script>
+</body>
+
 </html>
